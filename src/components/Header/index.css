@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+.header{
+    background: #563d7c;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+}
+
+
+.aditional{
+    padding-right: 10px;
+    color: #c4b4db;
+    padding-bottom: 5px;
+}
+
+.aditional span{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    padding: 5.5px;
+    cursor: pointer;
+}
+
+.aditional span i{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 2px;
+}
+.aditional span:hover{
+    color: #e9ecef;
+}
+
+.aditional i{
+    font-size: 18px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.aditional i:hover{
+    color: #e9ecef;
+}
+
+.aditional button{
+    font-size: 15px;
+    border: 1px solid #ffe484;
+    background: #563d7c;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color:#ffe484 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 590;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.aditional button:hover{
+    background:#ffe484;
+    color: #495057;
+}
+
+@media only screen and (max-width:990px){
+    .aditional button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .header{
+        flex-direction: column;
+        height: 140px;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .aditional{
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
