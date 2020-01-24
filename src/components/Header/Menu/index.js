@@ -7,7 +7,7 @@ export default function Menu() {
         {
             id:1,
             title: 'Home',
-            active: false,
+            active: true,
             ref:'#',
         },
         {
