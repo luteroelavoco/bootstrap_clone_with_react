@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+.card{
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10vw;
+    font-family: 'Roboto', sans-serif;
+    width: 32.8vw;
+    margin-bottom: 2px;
+
+}
+
+
+@media only screen and (max-width:1080px)
+{
+    .card img{
+        width: 100%;
+    }
+}
+
+.card img{
+    height: 70%;
+}
+@media only screen and (max-width:845px){
+    .card{
+        width: 95.9vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+.card span i{
+    color: #007bff;
+    font-size: 30px;
+}
+
+.card h1 , .card h2{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.card h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.card p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.card span{
+    font-size: 14px;
+}
+
+.card .spaninstall{
+    color:#33666666;
+    font-weight:400;
+    padding-left: 5px;
+    padding-right : 5px;
+}
+.card .spanspace{
+    color:#33666666;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.card .spand{
+   color:#009;
+   font-weight:400;
+   font-style: italic;
+   padding-right: 10px;
+}
+
+.card button{
+    background: #f8f9fa;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1.2px solid #007bff;
+    border-radius: 3px;
+    color: #007bff;
+    width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card button:hover{
+    color: white;
+    background:  #007bff;
+}
+
+.overflow{
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+.overflow p{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.card .spanred{
+    color: #e50000;
+}
+
+.card .spanblue{
+    color: #0000cc;
+}
+
+.card .spanbluelight{
+   color: #6666ff;
+}
+.card .spnalink{
+    color: #007bff;
+    cursor: pointer;
+    padding-left: 3px;
+    transition: 0.1s;
+}
+.card .spnalink:hover{
+    color: #009;
+    text-decoration: underline;
+}

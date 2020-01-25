@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+.footer{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+@media only screen and (max-width:635px){
+    .footer{
+        text-align: center;
+    }
+}
+
+.footer ul{
+   padding-left: 0px;
+   padding-bottom: 20px;
+}
+
+.footer li a{
+    color: #495057;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer li a:hover ,.footer .spanflink:hover{
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.footer p{
+    margin-left: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color:  #495057;;
+}
+
+.footer .spanflink {
+    margin-left: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+

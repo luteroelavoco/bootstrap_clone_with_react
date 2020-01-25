@@ -3,12 +3,9 @@
 
 .main{
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
     padding-top: 70px;
 }
 
@@ -49,12 +46,12 @@
     background: white;
     border-radius: 5px;
     font-size: 20px;
-    display: inline block;
+    display: inline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     cursor: pointer;
     transition: 0.2s;
-    margin-bottom: 20px;
+     margin-bottom: 20px;
 }
 
 .p1main .button .started{
@@ -87,6 +84,11 @@
     margin-right:10vh;
 }
 
+.main .smain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20vh;
+}
 @media only screen and (max-width:1200px){
     .main .pmain img{
         width: 460px;
@@ -149,10 +151,16 @@
         height: 200px;
         margin-left: 20px;
     }
-     
+    
    
 }
-
+@media only screen and (max-width:845px){
+    .main .smain{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* 
 .smain{
     
-}
+} */
