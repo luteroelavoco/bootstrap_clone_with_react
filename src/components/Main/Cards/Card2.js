@@ -4,7 +4,7 @@ import './card.css';
 export default function Card2() {
     return (
         <div className="card">
-            <span><i class="fa fa-cloud-download" aria-hidden="true" alt="Download"></i></span>
+            <span><i className="fa fa-cloud-download" aria-hidden="true" alt="Download"></i></span>
             <h1> BootstrapCDN </h1>
             <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use 
                    <span className="spnalink">BootstrapCDN</span>.</p>
