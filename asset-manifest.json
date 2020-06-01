@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bootstrap_clone_with_react/static/css/main.88e639c3.chunk.css",
+    "main.js": "/bootstrap_clone_with_react/static/js/main.bdf3173b.chunk.js",
+    "main.js.map": "/bootstrap_clone_with_react/static/js/main.bdf3173b.chunk.js.map",
+    "runtime-main.js": "/bootstrap_clone_with_react/static/js/runtime-main.cf8d0f46.js",
+    "runtime-main.js.map": "/bootstrap_clone_with_react/static/js/runtime-main.cf8d0f46.js.map",
+    "static/js/2.6aa0dcc4.chunk.js": "/bootstrap_clone_with_react/static/js/2.6aa0dcc4.chunk.js",
+    "static/js/2.6aa0dcc4.chunk.js.map": "/bootstrap_clone_with_react/static/js/2.6aa0dcc4.chunk.js.map",
+    "index.html": "/bootstrap_clone_with_react/index.html",
+    "precache-manifest.7442a9df2c528588a0521147e11001ff.js": "/bootstrap_clone_with_react/precache-manifest.7442a9df2c528588a0521147e11001ff.js",
+    "service-worker.js": "/bootstrap_clone_with_react/service-worker.js",
+    "static/css/main.88e639c3.chunk.css.map": "/bootstrap_clone_with_react/static/css/main.88e639c3.chunk.css.map",
+    "static/js/2.6aa0dcc4.chunk.js.LICENSE.txt": "/bootstrap_clone_with_react/static/js/2.6aa0dcc4.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-stack.png": "/bootstrap_clone_with_react/static/media/bootstrap-stack.73844123.png",
+    "static/media/bootstrap-themes.png": "/bootstrap_clone_with_react/static/media/bootstrap-themes.ebc6880a.png",
+    "static/media/logo.JPG": "/bootstrap_clone_with_react/static/media/logo.46a5cd73.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf8d0f46.js",
+    "static/js/2.6aa0dcc4.chunk.js",
+    "static/css/main.88e639c3.chunk.css",
+    "static/js/main.bdf3173b.chunk.js"
+  ]
+}
