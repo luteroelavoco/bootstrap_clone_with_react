@@ -10,6 +10,8 @@
 @media only screen and (max-width:635px){
     .footer{
         text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
